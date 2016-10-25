@@ -1,0 +1,264 @@
+/*
+  ================================================
+                  Reset Overrides
+  ================================================
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  display: block;
+}
+
+main {
+  background-color: rgba(255,255,255, 1);
+  z-index: -1;
+}
+
+small {
+  font-size: 12px;
+}
+
+
+/*
+  ================================================
+                  Logo
+  ================================================
+*/
+
+.logo {
+    display: flex;
+    padding: 0 0 0 110px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo li:nth-of-type(1) {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.logo li:nth-of-type(2) {
+    text-transform: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #004770;
+}
+
+
+/*
+  ================================================
+                  Nav
+  ================================================
+*/
+
+.menu {
+    background-color: #4FA8FF;
+    display: flex;
+    min-height: 30vh;
+    margin: 0 2%;;
+}
+
+/* Nav Link Psuedo Below */
+
+/* unclicked link */
+.menu a {
+    color: #FFB20F;
+    text-decoration: none;
+}
+/* visited link */
+.menu a:visited {
+    color: #FFB20F;
+}
+
+/* mouse over link */
+.menu a:hover {
+    color: black;
+}
+
+/* selected link */
+.menu a:active {
+    color: #FFB20F;;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-item li {
+    display: inline-flex;
+    text-transform: uppercase;
+    border: 3px solid #FFB20F;
+    padding: 4px 5px 4px 5px;
+    margin: 0 .5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #004770;
+    font-size: 15px;
+    font-family: "Calibri";
+    color: #FFB20F;
+}
+
+.nav-item li a {
+  margin: 0 .5px;
+}
+
+.nav-item li:last-of-type {
+    margin: 0 135px 0 0;
+}
+
+
+/*
+  ================================================
+                  Home
+  ================================================
+*/
+
+
+.flex-container-hero {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 96%;
+  min-height: 40vh;
+  margin: 2% 2% 2% 2%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  min-width: 300px;
+  padding:  0 5px 0 0;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 630px;
+  min-height: 300px;
+  max-width: 630px;
+}
+
+.flex-container-content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  width: 96%;
+  min-height: 40vh;
+  background-color: #004770;
+  margin: 0 2% 1% 2%;
+}
+
+.news {
+  display: inline;
+  justify-content: space-around;
+  width: auto;
+  height:
+  margin: 0 0 2% 0;
+}
+
+.news:nth-of-type(1) {
+  padding-left: 12%;
+  padding-right: 2%;
+  margin-bottom: 2%;
+}
+
+.news:nth-of-type(3) {
+  padding-right: 12%;
+  padding-left: 2%;
+}
+
+article {
+  display: flex;
+  width: 33%;
+  height: auto;
+}
+
+article h2 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #FFB20F;
+  text-align: center;
+  background-color: #004770;
+  border: 2px solid #FFB20F;
+  margin: 2% 0;
+}
+
+article p {
+  padding: 20px 20px;
+  margin: 1px 10px 1px 1px;
+  border: 5px solid #FFB20F;
+  background-color: #FFFFFF;
+}
+
+.article-image {
+  min-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  float: left;
+  margin: 0 10px 2px 5px;
+}
+
+/*
+  ================================================
+                  Footer
+  ================================================
+*/
+
+.footer-logo {
+    display: flex;
+    padding: 0 0 0 35px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.footer-logo a li:nth-of-type(1) {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.footer-logo li:nth-of-type(2) {
+    text-transform: none;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.footer-menu {
+    background-color: #4FA8FF;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    min-height: 10vh;
+    width: 96%;
+    margin: 0 2% 0 2%;
+}
+
+.footer-item {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.footer-item li:last-of-type {
+    margin: 0 15px 0 0;
+}
